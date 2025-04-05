@@ -16,11 +16,8 @@ def exercise2():
     # Calculate the probability that the exponential variable is larger than the uniform variable
     prob_simulation = np.mean(exp_samples > uniform_samples)
 
-    # Theoretical probability
-    prob_theoretical = (1 - np.exp(-5)) / 5
+    print(f"Exercise 2 Simulated probability: {prob_simulation:.4f}")
 
-    print(f"Simulated probability: {prob_simulation:.4f}")
-    print(f"Theoretical probability: {prob_theoretical:.4f}")
 
 
 if __name__ == "__main__":
