@@ -12,3 +12,6 @@
 
 # idea
 .idea/
+
+# pycache
+__pycache__/
